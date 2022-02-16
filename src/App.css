@@ -1,6 +1,7 @@
 html {
   background-color: #f5f5f5;
 }
+
 .블로그 {
   margin: 0px 79.6667px;
   padding: 0px 16px;
@@ -154,12 +155,17 @@ img {
   white-space: pre-wrap;
   padding: 32px 64px;
   width: 678.4px;
-  height: 512.667px;
+  /* height: 512.667px; */
   outline: none;
   border: none;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   font-size: 1.125rem;
+  outline: none;
+  border: 0 solid;
+}
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+  min-height: 470px;
 }
 
 $header {
